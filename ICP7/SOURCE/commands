@@ -1,0 +1,25 @@
+cd Desktop/cassandra/bin
+cqlsh
+
+create keyspace test with replication={'class':'SimpleStrategy','replication factor':1};
+
+desc keyspaces;
+
+use test;
+
+create table emp(ID int primary key,name text,jobtitle text,hiredate text);
+
+insert into emp(ID,name,jobtitle,hiredate) values (1,'Bob','Janitor','2010-10-20');
+insert into emp(ID,name,jobtitle,hiredate) values (2,'Joe','Programmer','19989-11-15');
+insert into emp(ID,name,jobtitle,hiredate) values (3.'Bill','Analyst','1993-09-01');
+select * from emp;
+alter table emp add salary int;
+alter table emp add manager text
+update emp set jobtitle = 'clerk' where id=1;
+update emp set salary = 45000 where id=1;
+update emp set hiredate = '2000-02-18' where id=3;
+update emp set manager = 'yes' where id =2;
+select name,salary from test.emp where jobtitle='clerk' allow filtering;
+select name,jobtitle,salary,hiredate from emp where hiredate='2000-02-18';
+select name, salary from emp allow filtering;
+select name,salary,manager from emp where salary=45000 allow filtering;
