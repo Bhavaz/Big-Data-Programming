@@ -1,0 +1,20 @@
+Batman
+
+Race: "Human" + id:[ 200 TO 300]
+
+"Blue Beetle" AND "Blue Beetle III"
+
+"Beast Boy" OR "Beast"
+
+"Atom Girl" NOT "Atom"
+
+(Eye color:blue OR Hair color:blue)^1.0 Alignment:good
+
+Male~2
+
+Man~10
+
+name:A*
+
+Weight:[200 TO 300]
+

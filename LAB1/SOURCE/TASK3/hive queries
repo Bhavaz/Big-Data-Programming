@@ -1,0 +1,28 @@
+use lab1;
+
+show tables;
+
+select * from heropowers;
+
+select * from heroinfo;
+
+select gender,race,eye_color, count(*) from heroinfo group by gender, race, eye_color order by race;
+
+select publisher,name, concat(race,eye_color,hair_color) from heroinfo;
+
+select race,gender,max(height) from heroinfo where height>0 and gender <> '' group by race, gender;
+
+select publisher,upper(race),substr(alignment,0,1) alignment,count(*) from heroinfo group by publisher, race, alignment; 
+
+select publisher, race,concat(max(weight),'H') from heroinfo where publisher<>'' group by publisher, race
+union all
+select publisher, race,concat(min(weight),'L') from heroinfo where publisher<> '' group by publisher, race;
+
+select upper(race) race,substr(lower(gender),0,1) gender,avg(weight) from heroinfo group by race, gender;
+
+select(h.name) name, h.gender,h.race,h.publisher from heroinfo h join heropowers s on h.name=s.hero_names where agility = false and durability = false;
+
+select name, publisher,hair_color from heroinfo where lower(publisher) like 'nbc%';
+
+select publisher, alignment,count(*) from heroinfo where publisher<> '' group by publisher,alignment;
+
