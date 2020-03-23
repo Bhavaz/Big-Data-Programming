@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="sbt 1" modules="ICP-1,Spark_ICP_1,WordCount,wordcount_latest_7413" />
+  </component>
+</project>
