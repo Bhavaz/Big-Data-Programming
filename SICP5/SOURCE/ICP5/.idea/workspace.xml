@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f048f38a-552b-4b01-b7a1-8fec71409ea4" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1auQpamBmzmO70iW8ye05CptKYC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Scala" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager">
+    <configuration name="ICP5" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="ICP5" />
+      <module name="ICP5" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ICP5" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="ICP5" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="icp5 [file:/Users/bhavaz/Downloads/BDP/SICP5/ICP5/]" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="ICP5-build" />
+                <option name="path" value="$PROJECT_DIR$/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$/build.sbt" value="397219983" />
+        <entry key="$PROJECT_DIR$/project/build.properties" value="2620759781" />
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../../SICP1/Source code/WordCount_Latest" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../Graphx" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f048f38a-552b-4b01-b7a1-8fec71409ea4" name="Default Changelist" comment="" />
+      <created>1587583183058</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587583183058</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="320" y="107" key="#Project_Structure" timestamp="1587586274720">
+      <screen x="0" y="23" width="1440" height="835" />
+    </state>
+    <state x="320" y="107" key="#Project_Structure/0.23.1440.835@0.23.1440.835" timestamp="1587586274720" />
+    <state x="184" y="104" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587586642980">
+      <screen x="0" y="23" width="1440" height="835" />
+    </state>
+    <state x="184" y="104" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.835@0.23.1440.835" timestamp="1587586642980" />
+    <state x="481" y="250" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587586371360">
+      <screen x="0" y="23" width="1440" height="835" />
+    </state>
+    <state x="481" y="250" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.835@0.23.1440.835" timestamp="1587586371360" />
+    <state width="1398" height="475" key="GridCell.Tab.0.bottom" timestamp="1587588034614">
+      <screen x="0" y="23" width="1440" height="835" />
+    </state>
+    <state width="1398" height="475" key="GridCell.Tab.0.bottom/0.23.1440.835@0.23.1440.835" timestamp="1587588034614" />
+    <state width="1398" height="475" key="GridCell.Tab.0.center" timestamp="1587588034613">
+      <screen x="0" y="23" width="1440" height="835" />
+    </state>
+    <state width="1398" height="475" key="GridCell.Tab.0.center/0.23.1440.835@0.23.1440.835" timestamp="1587588034613" />
+    <state width="1398" height="475" key="GridCell.Tab.0.left" timestamp="1587588034612">
+      <screen x="0" y="23" width="1440" height="835" />
+    </state>
+    <state width="1398" height="475" key="GridCell.Tab.0.left/0.23.1440.835@0.23.1440.835" timestamp="1587588034612" />
+    <state width="1398" height="475" key="GridCell.Tab.0.right" timestamp="1587588034613">
+      <screen x="0" y="23" width="1440" height="835" />
+    </state>
+    <state width="1398" height="475" key="GridCell.Tab.0.right/0.23.1440.835@0.23.1440.835" timestamp="1587588034613" />
+  </component>
+</project>

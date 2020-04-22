@@ -8,7 +8,6 @@ object SparkDataFrame{
 
   def main(args: Array[String]): Unit = {
 
-    System.setProperty("hadoop.home.dir","D:\\winutils" );
     val conf = new SparkConf().setMaster("local[2]").setAppName("My app")
     val sc = new SparkContext(conf)
     val spark = SparkSession
@@ -100,7 +99,7 @@ object SparkDataFrame{
       val  Gender = fields(2).toString
       (Country,state,Gender)
     }
-    val lines = sc.textFile("C:\\Users\\thota\\IdeaProjects\\Spark_ICP_3\\survey.csv")
+    val lines = sc.textFile("/Users/bhavaz/Desktop/Big-Data-Programming/Big-Data-Programming/Big-Data-Programming/SICP3/SOURCE/survey.csv")
     val rdd = lines.map(parseLine).toDF()
     println("")
     println("After ParseLine method : ")
