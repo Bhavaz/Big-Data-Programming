@@ -87,9 +87,9 @@ object ICP5 {
     ver.show(5)
     println("Degree" + ver.orderBy(desc("Degree")).limit(5))
 
-    stationGraph.vertices.write.csv("/Users/bhavaz/Downloads/BDP/SICP5/ICP5/Graphs/Vertices")
+    stationGraph.vertices.write.csv("/Users/bhavaz/Desktop/Big-Data-Programming/Big-Data-Programming/Big-Data-Programming/SICP5/SOURCE/ICP5/Graphs/Vertices")
 
-    stationGraph.edges.write.csv("/Users/bhavaz/Downloads/BDP/SICP5/ICP5/Graphs/Edges")
+    stationGraph.edges.write.csv("/Users/bhavaz/Desktop/Big-Data-Programming/Big-Data-Programming/Big-Data-Programming/SICP5/SOURCE/ICP5/Graphs/Edges")
 
     val heighestdestination = stationGraph
       .edges
